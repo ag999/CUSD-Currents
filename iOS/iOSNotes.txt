@@ -1,0 +1,9 @@
+Make sure you are working with Xcode version 7.x, because the code is written in Swift 2 and Xcode 8 and above use Swift 3, which will create some issues with the pods. If you just installed Xcode, you will need to downgrade your Xcode to version 7.x. To get the previous version: 
+	a)Uninstall the current Xcode. Click on Finder icon > On the Sidebar, you'll find "Applications", click on it and  delete the "Xcode" icon.
+	b)Log in with your apple account here: https://developer.apple.com/downloads/index.action?name=Xcode and download the appropriate version.
+Before running, you need to first install the pods (this need to be done only once). The process to do that is as follows:
+1) Install the cocapods (using brew or sudo). If you don't have brew (get it, it is quite useful!), you can see what it does and find directions to install it here: https://brew.sh
+2) If you are using brew the command to get cocoapods is: brew install cocapods and if you are using sudo the command is: sudo gem install cocoapods 
+3) Now install the pods by running "pod install" on terminal (doesn't matter if you used brew or sudo)
+4) You are good to go now :)
+To run the project, you need to open the .xcworkspace file and not the .xcodeproj.
