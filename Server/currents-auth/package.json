@@ -1,0 +1,19 @@
+{
+  "name": "currents-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/currents-auth.git"
+  },
+  "author": "Huajun Gu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-stormpath": "^3.2.0"
+  }
+}

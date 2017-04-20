@@ -1,0 +1,6 @@
+The folders in here for the Heroku servers do not contain the entire folder.  This is becuase Heroku needs to have a git and having a git inside a git does not work out very well.  Therefore only the important files are located in these folders
+
+currents-auth
+	- This is for the authentication instance for Stormpath
+	- It is located at https://dashboard.heroku.com/apps/currents-auth
+	- 
