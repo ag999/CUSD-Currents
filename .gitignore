@@ -1,0 +1,9 @@
+.idea
+target
+timemate.*
+application.properties
+*.log*
+.DS_Store
+.sass-cache/
+Timemate\ Todo.txt
+
