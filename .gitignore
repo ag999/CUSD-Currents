@@ -6,4 +6,4 @@ application.properties
 .DS_Store
 .sass-cache/
 Timemate\ Todo.txt
-
+*.xcuserdatad
